@@ -1,8 +1,6 @@
 # Chess
 ChessGame using OOP and clean code principles and design patterns
 Chess assignment
-Done by:
-Ramzi Alyahya
 
 In my design for the Chess game, I followed the clean code, SOLID, and OOP principles as much as I could, while incorporating some design patterns in order to create a maintainable and extendable piece of software, in general my design aims to achieve a high degree of abstraction by decomposing the design into smaller simple classes and achieves encapsulation by always minimizing accessibility of fields and methods that we don’t want to be exposed, using setter methods sparingly, and judiciously returning copies of data in getter methods.
 
@@ -92,8 +90,3 @@ ChessGame in execution:
 • The same will occur but now it’s the other player’s turn.
 • This continues till a draw occurs or someone loses.
 
-
-
-Closing remarks:
-In my design I applied OOP principles and used the SOLID principles as a guide, while constantly looking at my code and criticizing it with Uncle Bob’s clean code principles to iteratively improve my code, I decomposed the problem into smaller classes and functions to improve readability, cohesion and coupling, and applying DRY principle to reduce code redundancy wherever possible.
-Whenever I got stuck on a design issue or saw that my code had major SOLID violations I’d search through Uncle Bob’s book and go through design patterns again till I find a simple solution, (as a beginner I still haven’t fully wrapped my head around all of the design patterns).
